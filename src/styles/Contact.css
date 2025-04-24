@@ -1,0 +1,30 @@
+.contact{
+    margin: 20px 100px 0px 100px;
+}
+
+.contact-title {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-title p{
+    font-size: 30px;
+    margin: 0px;
+    width: 15%;
+    text-align: center;
+}
+
+.contact-title-left-division{
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 65%;
+    background-color: #424242;
+}
+.contact-title-right-division{
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 20%;
+    background-color: #424242;
+}

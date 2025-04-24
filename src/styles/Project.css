@@ -1,0 +1,30 @@
+.project{
+    margin: 20px 100px 0px 100px;
+}
+
+.project-title {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project-title p{
+    font-size: 30px;
+    margin: 0px;
+    width: 15%;
+    text-align: center;
+}
+
+.project-title-left-division{
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 42.5%;
+    background-color: #424242;
+}
+.project-title-right-division{
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 42.5%;
+    background-color: #424242;
+}

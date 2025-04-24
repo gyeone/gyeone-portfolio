@@ -13,6 +13,7 @@
     font-size: 30px;
     margin: 0px;
     width: 15%;
+    text-align: left;
 }
 
 .aboutme-title-division{
@@ -22,6 +23,7 @@
     background-color: #424242;
 }
 
+
 .aboutme-contents{
     display: flex;
     justify-content: space-between;
@@ -29,16 +31,11 @@
 }
 
 #memo{
-    margin: 160px 0px 0px 300px;
+    margin: 140px 0px 0px 300px;
 }
 
 .aboutme-contents-information{
-    margin: 160px 300px 0px 0px;
-}
-
-.aboutme-contents-information p{
-    font-size: 20px;
-    margin: 0px;
+    margin: 200px 300px 0px 0px;
 }
 
 .aboutme-contents-information-name, .aboutme-contents-information-birth,
@@ -48,11 +45,22 @@
     margin: 10px 0px 10px 0px;
 }
 
-#aboutme-icon{
-    width: 32px;
-    height: 32px;
-    padding: 20px;
+#aboutme-p-icon{ /*아이콘 감싸는 p태그*/
+    width: 30px;
+    height: 30px;
+    padding: 6px;
     margin: 0px 15px 0px 0px;
     background-color: #2196F3;
     border-radius: 50%;
+}
+
+#aboutme-icon{ /* 아이콘 */
+    font-size: 30px;
+    margin: 0px;
+}
+
+#aboutme-p{ /* 글 */
+    font-size: 20px;
+    height: 30px;
+    margin: 6px 0px 6px 0px;
 }
