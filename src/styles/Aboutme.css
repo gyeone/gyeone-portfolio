@@ -1,0 +1,58 @@
+.aboutme{
+    margin: 20px 100px 0px 100px;
+}
+
+.aboutme-title {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutme-title p{
+    font-size: 30px;
+    margin: 0px;
+    width: 15%;
+}
+
+.aboutme-title-division{
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 85%;
+    background-color: #424242;
+}
+
+.aboutme-contents{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#memo{
+    margin: 160px 0px 0px 300px;
+}
+
+.aboutme-contents-information{
+    margin: 160px 300px 0px 0px;
+}
+
+.aboutme-contents-information p{
+    font-size: 20px;
+    margin: 0px;
+}
+
+.aboutme-contents-information-name, .aboutme-contents-information-birth,
+.aboutme-contents-information-address, .aboutme-contents-information-github,
+.aboutme-contents-information-email{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+#aboutme-icon{
+    width: 32px;
+    height: 32px;
+    padding: 20px;
+    margin: 0px 15px 0px 0px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
