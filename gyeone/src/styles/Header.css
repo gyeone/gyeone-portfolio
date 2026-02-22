@@ -1,0 +1,52 @@
+.header {
+    margin: 0 100px 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    gap: 20px;
+}
+
+.header-logo {
+}
+
+.header-logo p {
+    font-size: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.nav {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+}
+
+.nav-glass {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 100px;
+    padding: 9px 18px;
+    transition: all 0.25s ease-out;
+}
+
+.nav-active {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 40px;
+    backdrop-filter: blur(7.2px) saturate(130%);
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 12px;
+    mix-blend-mode: overlay;
+}
+
+.nav-active:hover {
+    transform: translate(-0.8px, -0.7px) scaleX(1.021) scaleY(0.98);
+    transition: all 0.3s ease-out;
+}
+.moon {
+    font-size: 32px;
+    color: white;
+    opacity: 0.8;
+}
