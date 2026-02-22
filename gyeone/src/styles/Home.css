@@ -1,0 +1,32 @@
+.home {
+    margin-top: 100px;
+}
+
+.home-footer {
+    text-align: center;
+}
+
+.home-footer p {
+    color: #2196f3;
+    font-size: 24px;
+    margin: auto;
+}
+
+.home-footer h1 {
+    margin: auto;
+}
+
+.arrow {
+    opacity: 0.6;
+    animation: arrow 2s ease infinite;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
+        opacity: 0.3;
+    }
+}
