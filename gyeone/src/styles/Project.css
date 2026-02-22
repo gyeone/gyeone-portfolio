@@ -1,0 +1,176 @@
+.project {
+    margin: 100px 100px 0px 100px;
+}
+
+.project-title {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title p {
+    font-size: 30px;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+
+.project-title-left-division {
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 42.5%;
+    background-color: #424242;
+}
+.project-title-right-division {
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 42.5%;
+    background-color: #424242;
+}
+
+.project-contents {
+    margin: 70px 100px 150px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 150px 0;
+}
+
+.project-contents-first,
+.project-contents-second {
+    display: flex;
+}
+
+.project-contents-first-left,
+.project-contents-second-right {
+    width: 40%;
+}
+
+.project-contents-first-right,
+.project-contents-second-left {
+    width: 60%;
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0 30px;
+}
+
+#project-title-p {
+    font-size: 28px;
+    margin: 0;
+    width: fit-content;
+    font-weight: 400;
+}
+
+#project-particular {
+    font-size: 20px;
+    margin: 0;
+    color: #2196f3;
+    width: fit-content;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 20px;
+}
+
+#project-content-p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#project-date {
+    font-size: 18px;
+    margin: 0px;
+    color: #616161;
+}
+
+.project-github {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0 15px;
+}
+
+#github-icon {
+    /*아이콘 감싸는 p태그*/
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    margin: 0px 15px 0px 0px;
+    background-color: #2196f3;
+    border-radius: 50%;
+}
+
+#icon {
+    /* 아이콘 */
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+}
+
+#project-skill {
+    font-size: 20px;
+    color: #616161;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 0px 5px 2px 5px;
+}
+
+.project-pc {
+    margin-top: 20px;
+    width: 526px;
+    height: 375px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.project-contents-first-right {
+    margin-top: 150px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pc-screen1,
+.pc-screen2 {
+    width: 490px;
+    height: 276px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.mobile-screen {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.mobile-screen1,
+.mobile-screen2,
+.mobile-screen3 {
+    width: 184px;
+    height: 400px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.project-contents-second-right {
+    display: flex;
+    justify-content: end;
+}
+
+.project-mobile {
+    width: 325px;
+    height: 600px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
