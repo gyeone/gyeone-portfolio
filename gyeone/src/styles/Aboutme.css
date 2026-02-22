@@ -1,0 +1,39 @@
+.aboutme {
+    margin: 100px 100px 0px 100px;
+}
+
+.aboutme-title {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutme-title p {
+    font-size: 30px;
+    margin: auto;
+    width: 15%;
+    text-align: left;
+}
+
+.aboutme-title-division {
+    height: 1px;
+    margin: 22px 0px 17px 0px;
+    width: 85%;
+    background-color: #424242;
+}
+
+.aboutme-contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#memo {
+    margin: 140px 0px 0px 300px;
+}
+
+.aboutme-contents-information {
+    margin: 200px 300px 0px 0px;
+}
