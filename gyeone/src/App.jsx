@@ -1,5 +1,7 @@
 import "./App.css";
-import "./styles/Reset.css";
+import "./styles/base/Reset.css";
+import "./styles/base/fonts.css";
+import "./styles/base/common.css";
 import { useState } from "react";
 import {
     FullpageContainer,
