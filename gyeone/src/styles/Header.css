@@ -27,17 +27,20 @@
 }
 
 .nav-glass {
-    font-size: 22px;
+    font:
+        400 22px "Daeojamjil",
+        sans-serif;
     color: rgba(255, 255, 255, 0.8);
-    border-radius: 100px;
-    padding: 9px 18px;
+    border-radius: 30px;
+    padding: 10px 20px;
     transition: all 0.25s ease-out;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 12px;
 }
 
 .nav-active {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 40px;
-    backdrop-filter: blur(7.2px) saturate(130%);
-    text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 34px;
+    backdrop-filter: blur(8px) saturate(150%);
+    background-color: rgba(245, 245, 245, 0.5);
     mix-blend-mode: overlay;
 }
 
